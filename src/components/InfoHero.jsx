@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 
 export default function InfoHero() {
+    // Array elementi stampati
     const InfoCard = [
         {
             img: 'https://www.apple.com/v/airpods/v/images/chapternav/airpods_2gen_light__ckwbqlgv1r9e_large.svg',
@@ -37,23 +38,30 @@ export default function InfoHero() {
 
     ];
 
+
     useEffect(() => {
         ScrollReveal().reveal('.effect', { delay: 1000 });
     }, []);
 
     return (
-        <div className='bg-white min-h-24 effect py-5'>
-            <div className='grid grid-cols-6 gap-4 mx-auto max-w-screen-xl'>
-                {InfoCard.map((card, index) => (
-                    <div key={index} className='flex flex-col items-center'>
-                        <img src={card.img} alt={card.title} />
-                        <div className='text-center'>
-                            <h5>{card.title}</h5>
-                            <span>{card.subtitle}</span>
+        <>
+            <div className='bg-white min-h-24 effect py-5'>
+                <div className='grid grid-cols-3 gap-4 mx-auto max-w-screen-xl md:grid-cols-6'>
+                    {InfoCard.map((card, index) => (
+                        <div key={index} className='flex flex-col items-center hover:text-sky-600'>
+                            <img src={card.img} alt={card.title} />
+                            <div className='text-center'>
+                                <h5>{card.title}</h5>
+                                <span>{card.subtitle}</span>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
-        </div>
+            <div className="bg-[#f5f5f7] min-h-10 text-xs flex justify-center items-center">
+                <span>3 mesi di Apple Music gratis per te, con il tuo modello di AirPods.</span>
+            </div>
+        </>
+
     );
 }

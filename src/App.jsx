@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import Header from './components/Header.jsx';
+import ShopCard from "./components/ShopCard.jsx";
 
 function App() {
   
@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Header />
+      <main>
+        <ShopCard />
+      </main>
       
     </>
   )

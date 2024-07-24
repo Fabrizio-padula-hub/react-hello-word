@@ -4,13 +4,15 @@ import InfoHero from "./InfoHero";
 
 
 function Header() {
-  
+
     return (
 
         <>
-            <Navbar />
-            <InfoHero />
-            
+            <header>
+                <Navbar />
+                <InfoHero />
+            </header>
+
         </>
 
     )
