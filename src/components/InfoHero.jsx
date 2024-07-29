@@ -61,6 +61,7 @@ export default function InfoHero() {
             <div className="bg-[#f5f5f7] min-h-10 text-xs flex justify-center items-center">
                 <span>3 mesi di Apple Music gratis per te, con il tuo modello di AirPods.</span>
             </div>
+           
         </>
 
     );

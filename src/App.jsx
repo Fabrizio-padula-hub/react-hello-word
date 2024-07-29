@@ -1,14 +1,17 @@
 import Header from "./components/Header.jsx";
-import ShopCard from "./components/ShopCard.jsx";
+import HeroCard from "./components/HeroCard.jsx";
 import CardList from "./components/CardList.jsx";
+import ShowTitle from "./components/ShowTitle.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <ShopCard />
+        <HeroCard />
+        <ShowTitle />
         <CardList />
+       
         <div className="mt-28">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
           fugit, est dicta magnam amet iure voluptatibus eligendi? Sed obcaecati

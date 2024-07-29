@@ -7,13 +7,13 @@ function Header() {
 
     return (
 
-        <>
-            <header>
-                <Navbar />
-                <InfoHero />
-            </header>
 
-        </>
+        <header>
+            <Navbar />
+            <InfoHero />
+        </header>
+
+
 
     )
 }
