@@ -35,7 +35,7 @@ function HeroCard() {
   }, [isSticky]);
 
   return (
-    <div className="flex justify-center items-start min-h-[25rem] md:min-h-[39.94rem] lg:min-h-[51.25rem] bg-[url('../assets/img/divano-2-hero.jpg')] bg-no-repeat bg-cover bg-center">
+    <div className="flex justify-center items-start min-h-[25rem] md:min-h-[39.94rem] lg:min-h-[51.25rem] bg-[url('../assets/img/divano-2-hero.jpg')] bg-no-repeat bg-cover bg-center drop-shadow-[0_18px_35px_rgba(0,0,0,0.50)]">
       <div
         ref={cardRef}
         className={`backdrop-blur-sm bg-white/30 p-3 rounded-3xl mt-4 sticky top-0 flex justify-center items-center`}
