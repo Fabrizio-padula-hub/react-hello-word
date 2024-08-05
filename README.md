@@ -1,8 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Benvenuto nella repository della demo del negozio di mobili! Questo progetto è stato creato per mostrare un’interfaccia utente interattiva e moderna per un negozio di arredamenti e oggettistica per la casa.
 
-Currently, two official plugins are available:
+🌟 Tecnologie Utilizzate
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+	•	Frontend: Sviluppato con React ⚛️ per garantire una UI reattiva e dinamica.
+	•	Backend: Utilizzo di Laravel 🌐 per la gestione del database e delle API.
+	•	Stile: Implementazione di design elegante e personalizzato con Tailwind CSS 🎨.
+	•	Animazioni: Integrato GSAP e ScrollReveal.js 🎥 per animazioni fluide e coinvolgenti.
